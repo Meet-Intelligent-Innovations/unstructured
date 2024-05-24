@@ -102,6 +102,7 @@ def is_possible_title(
     languages: List[str] = ["eng"],
     language_checks: bool = False,
 ) -> bool:
+    return False
     """Checks to see if the text passes all of the checks for a valid title.
 
     Parameters

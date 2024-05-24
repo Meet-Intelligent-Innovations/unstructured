@@ -940,6 +940,7 @@ class _DocxPartitioner:
         if is_possible_title(text):
             return Title
 
+        return NarrativeText
         return None
 
     def _style_based_element_type(self, paragraph: Paragraph) -> Optional[Type[Text]]:
